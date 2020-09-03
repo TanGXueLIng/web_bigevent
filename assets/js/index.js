@@ -12,6 +12,17 @@ $(function() {
                 location.href = '/login.html';
             });
         })
+
+        // 给标题栏的个人中心绑定点击事件
+        // $('#headInformation').on('click', function() {
+        //     $('#information').click();
+        // })
+        // $('#headAvatar').on('click', function() {
+        //     $('avatar').click();
+        // })
+        // $('#headPwd').on('click', function() {
+        //     $('pwd').click();
+        // })
     })
     // 获取用户基本信息
 function getUserInfo() {
